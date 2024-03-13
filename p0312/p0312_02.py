@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import lotto45
 #--------------------------------------------------
 lotto = [0]*45       # 전체 45개 숫자
@@ -17,6 +18,8 @@ while True:
     elif choice == 4:
         lotto45.num_check(lotto,lucky_lotto,my_lotto,win_num,win_amount)
 =======
+=======
+>>>>>>> 27a98de (파이썬 수업내용)
 import lotto45
 #--------------------------------------------------
 lotto = [0]*45       # 전체 45개 숫자
@@ -34,5 +37,8 @@ while True:
         lotto45.num_input(my_lotto)  # 나의 로또번호입력
     elif choice == 4:
         lotto45.num_check(lotto,lucky_lotto,my_lotto,win_num,win_amount)
+<<<<<<< HEAD
 >>>>>>> 58c38c2 (삭제)
+=======
+>>>>>>> 27a98de (파이썬 수업내용)
         win_num = [] # 초기화

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import random
 
 # 카드 종류 : SPADE, DIAMOND, HEART, CLOVER 4종류
@@ -56,6 +57,8 @@ while True:
     else:
         print('프로그램을 종료합니다.')
 =======
+=======
+>>>>>>> 27a98de (파이썬 수업내용)
 import random
 
 # 카드 종류 : SPADE, DIAMOND, HEART, CLOVER 4종류
@@ -112,5 +115,8 @@ while True:
         card_print(list_card)
     else:
         print('프로그램을 종료합니다.')
+<<<<<<< HEAD
 >>>>>>> 58c38c2 (삭제)
+=======
+>>>>>>> 27a98de (파이썬 수업내용)
         break

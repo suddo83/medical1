@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import stuUpdate
 
 stu = [1,'홍길동',100,100,100,300,100.0,1]
@@ -13,6 +14,8 @@ while True:
         stuUpdate.stu_update(choice,s_title,stu)
         
 =======
+=======
+>>>>>>> 27a98de (파이썬 수업내용)
 import stuUpdate
 
 stu = [1,'홍길동',100,100,100,300,100.0,1]
@@ -26,4 +29,7 @@ while True:
     if choice == 3: # 학생성적수정
         stuUpdate.stu_update(choice,s_title,stu)
         
+<<<<<<< HEAD
 >>>>>>> 58c38c2 (삭제)
+=======
+>>>>>>> 27a98de (파이썬 수업내용)
