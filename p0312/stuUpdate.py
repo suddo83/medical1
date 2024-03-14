@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 def stu_print():
     print('[ 학생성적 프로그램 ]')
     print('1. 학생성적입력')
@@ -34,6 +35,16 @@ def stu_update(choice,s_title,stu):
 =======
 =======
 >>>>>>> 27a98de (파이썬 수업내용)
+=======
+def stu_print():
+    print('[ 학생성적 프로그램 ]')
+    print('1. 학생성적입력')
+    print('2. 학생성적출력')
+    print('3. 학생성적검색')
+    print('4. 학생성적수정')
+    print('5. 학생성적삭제')
+    
+>>>>>>> 992ee3a (파이썬 수업내용)
 # 성적점수부분 함수
 def score_update(choice,s_title,stu): # 전역변수 choice는 사용안해도 무관함
     print(f'[ {s_title[choice]}성적 수정 ]')
