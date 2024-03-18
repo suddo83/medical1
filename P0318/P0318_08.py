@@ -14,17 +14,19 @@ class Card(): # 4개의 변수 : kind,number,width,height
 
 # 클래스 5개를 생성해서 kind = 'spade', num = 1,2,3,4,5
 # 클래스를 출력하시오.
-c1 = Card('spade',1)
-print(f'카드 : {c1.kind},{c1.number}')
-c2 = Card('spade',2)
-print(f'카드 : {c2.kind},{c2.number}')
-c3 = Card('spade',3)
-print(f'카드 : {c3.kind},{c3.number}')
-c4 = Card('spade',4)
-print(f'카드 : {c4.kind},{c4.number}')
-c5 = Card('spade',5)
-print(f'카드 : {c5.kind},{c5.number}')
+card_list = []
+# 1-13까지ㅣ 넣어보세요.
+for i in range(13):
+    card_list.append(Card('spade',i+1))
+    print('리스트 출력 : ',card_list[i].kind, card_list[i].number)
 
+print('리스트 개수 : ',len(card_list))
+# card_list.append(Card('spade','A'))
+# card_list.append(Card('spade','2'))
+#...
+# card_list.append(Card('spade','J'))
+# card_list.append(Card('spade','Q'))
+# card_list.append(Card('spade','K'))
 
 
 
