@@ -20,5 +20,9 @@ class Car:
 # 객체선언을 할때마다 제품(car)이 한개씩 생산
 
 c1 = Car() # 객체선언
+print('색상 : ',c1.color)
+c1.color = 'red'
+print('변경후 색상: ',c1.color)
 
 c2 = Car()
+print('색상 : ',c2.color)
