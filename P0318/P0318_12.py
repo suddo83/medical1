@@ -34,11 +34,11 @@ class Car:
     def down_speed(self,speed):
         self.speed = speed - 10
         
-    # def stu_print(self):
-    #     print(self.carNo,self.color,self.door,self.tire,
-    #         self.speed,sep='\t')
-    # def __str__(self):
-    #     return f'{self.carNo},{self.color},{self.door},{self.tire},{self.speed}'
+    def stu_print(self):
+        print(f'리스트 : {self.carNo},{self.color},{self.door},{self.tire},{self.speed}',sep='\t')
+    
+    def __str__(self):
+        return f'{self.carNo},{self.color},{self.door},{self.tire},{self.speed}'
 
 c1 = Car('white',5,4,0)
 c1.up_speed(20)
@@ -48,10 +48,15 @@ c3 = Car('silver',5,4,0)
 c3.up_speed(60)
 
 car_list = [c1,c2,c3]
+# __str함수 미사용
 for i in range(3):
-    print(f'리스트 출력 : {car_list[i].carNo},{car_list[i].color},{car_list[i].door},{car_list[i].tire},{car_list[i].speed}')
+    print(f'리스트 : {car_list[i].carNo},{car_list[i].color},{car_list[i].door},{car_list[i].tire},{car_list[i].speed}')
+    car_list[i].stu_print()
 
-
+# __str함수 사용
+for i in car_list:
+    print(f'리스트 : {i}')
+    i.stu_print()
 
 
 
