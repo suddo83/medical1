@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import random
 
 from random import *
@@ -32,7 +31,7 @@ import math
 
 print(math.sin(1))
 print(math.cos(1))
-=======
+
 import random
 
 from random import *
