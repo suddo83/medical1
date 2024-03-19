@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import random
 card_list = []
 shape_list = ["spade","diamond","heart","clover"]
@@ -40,7 +39,6 @@ while True:
 
 
 
-=======
 import random
 card_list = []
 shape_list = ["spade","diamond","heart","clover"]
@@ -82,4 +80,3 @@ while True:
 
 
 
->>>>>>> 58c38c2 (삭제)

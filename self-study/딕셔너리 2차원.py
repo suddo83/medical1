@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 students = [{'stuNo':1,'stuName':'홍길동','kor':100}]
 students[0]['eng'] = 100   # 리스트내의 딕셔너리의 추가
 students[0]['kor'] = 50    # 리스트내의 딕셔너리의 수정
@@ -21,7 +20,6 @@ print(students[0].items())
 
 
 
-=======
 students = [{'stuNo':1,'stuName':'홍길동','kor':100}]
 students[0]['eng'] = 100   # 리스트내의 딕셔너리의 추가
 students[0]['kor'] = 50    # 리스트내의 딕셔너리의 수정
@@ -44,4 +42,3 @@ print(students[0].items())
 
 
 
->>>>>>> 58c38c2 (삭제)

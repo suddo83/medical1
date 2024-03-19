@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # stu.txt파일을 출력하시오.
 file = open('stu.txt','r',encoding='utf8')
 list1=[]
@@ -38,7 +37,6 @@ while True:
 
 # file.close()
 # print('파일이 저장되었습니다.')
-=======
 # stu.txt파일을 출력하시오.
 file = open('stu.txt','r',encoding='utf8')
 list1=[]
@@ -78,4 +76,3 @@ while True:
 
 # file.close()
 # print('파일이 저장되었습니다.')
->>>>>>> 992ee3a (파이썬 수업내용)

@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 def stu_print():
     print('[ 학생성적 프로그램 ]')
     print('1. 학생성적입력')
@@ -32,44 +29,4 @@ def stu_update(choice,s_title,stu):
         score_update(choice,s_title,stu)
         
     elif choice == 3:
-=======
-=======
->>>>>>> 27a98de (파이썬 수업내용)
-=======
-def stu_print():
-    print('[ 학생성적 프로그램 ]')
-    print('1. 학생성적입력')
-    print('2. 학생성적출력')
-    print('3. 학생성적검색')
-    print('4. 학생성적수정')
-    print('5. 학생성적삭제')
-    
->>>>>>> 992ee3a (파이썬 수업내용)
-# 성적점수부분 함수
-def score_update(choice,s_title,stu): # 전역변수 choice는 사용안해도 무관함
-    print(f'[ {s_title[choice]}성적 수정 ]')
-    print(f'현재 {s_title[choice]} 점수 : {stu[choice+1]} ')
-    print('-'*30)
-    stu[choice+1] = int(input('수정 점수를 입력하세요.>> '))
-    print('수정된 점수 : ',stu[choice+1])
-    stu[5] = stu[2]+stu[3]+stu[4]               # 합계수정
-    stu[6] = float('{:.2f}'.format(stu[5]/3))   # 평균수정
-    print(f'{s_title[choice]}점수가 수정되었습니다.')
-    
-# 학생성적수정함수
-def stu_update(choice,s_title,stu):
-    print('[ 학생성적수정]')
-    print('1. 국어    2. 영어    3. 수학')
-    choice = int(input('원하는 번호를 입력하세요.>> '))
-    if choice == 1:
-        score_update(choice,s_title,stu)
-        
-    elif choice == 2:
-        score_update(choice,s_title,stu)
-        
-    elif choice == 3:
-<<<<<<< HEAD
->>>>>>> 58c38c2 (삭제)
-=======
->>>>>>> 27a98de (파이썬 수업내용)
-        score_update(choice,s_title,stu)
+        pass

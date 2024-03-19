@@ -14,7 +14,7 @@ class Student:
         self.rank = rank
             
     def __str__(self):
-        return f'학생성적 : {self.stuNo},{self.name},{self.kor},{self.eng},{self.math},{self.total},{self.avg},{self.rank}'
+        return f'{self.stuNo}\t{self.name}\t{self.kor}\t{self.eng}\t{self.math}\t{self.total}\t{self.avg}\t{self.rank}'
 
     def stu_main_print():
         print('-'*40)
@@ -46,6 +46,13 @@ while True:
     s = Student(txt_list[1],int(txt_list[2]),int(txt_list[3]),int(txt_list[4]),int(txt_list[0]),int(txt_list[7]))
     students.append(s)
 f.close()
+#------------------------------------------------
+def stu_main_print():
+    print('\t[ 학생성적출력 ]')
+    print('-'*65)
+    print('학번\t이름\t국어\t영어\t수학\t합계\t평균\t등수')
+    print('-'*65)
+#------------------------------------------------
 
 Student.count = len(students)+1
 # for stu in students:
@@ -55,11 +62,13 @@ while True:
     print('[ 학생성적프로그램 ]')
     print('-'*40)
     print('1. 학생성적입력')
+    print('2. 학생성적전체출력')
+    print('3. 학생검색')
     print('0. 종료')
     print('-'*40)
     choice = input('원하는 번호를 입력하세요.>> ')
-    
-    if choice == '1':
+    choice = int(choice)
+    if choice == 1:
         while True:
             name = input(f'{len(students)+1}번째 학생이름을 입력하시오.(0.취소)>> ')
             if name == '0':
@@ -68,12 +77,33 @@ while True:
             kor = int(input('국어점수를 입력하시오.>> '))
             eng = int(input('영어점수를 입력하시오.>> '))
             math = int(input('수학점수를 입력하시오.>> '))
+            # list에 추가
             s = Student(name,kor,eng,math)
             students.append(s)
-            print('입력데이터 : ',s)
+            print('입력데이터 :',s)
+    
+    elif choice == 2:
+
+        # 데이터 출력
+        for i in students:
+            print(i) # 객체를 출력
             
+        print()
+    
+    elif choice == 3:
+        print('[ 학생성적 검색 ]')
+        search = input('찾고자 하는 학생 이름을 입력하세요.>> ')
         
-        
-        
-
-
+        # 전체리스트에서 학생검색
+        s_cnt = 0
+        for i in students:
+            if search == i.name:
+                break
+            s_cnt += 1
+            
+        if s_cnt == len(students):
+            stu_main_print()    
+            students[s_cnt]
+            
+        else:
+            print('찾고자 하는 학생이 없습니다.다시 검색하세요.')

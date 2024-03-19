@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 리스트 만드는 방법 1. append
 a_list = []
 a_list.append(0) #리스트 append추가를 하게 되면 속도가 느림.
@@ -18,7 +17,6 @@ list1 = [i+1 for i in range(10)]
 print(list1)
 
 arr = [[0] * 3 for _ in range(3)]
-=======
 # 리스트 만드는 방법 1. append
 a_list = []
 a_list.append(0) #리스트 append추가를 하게 되면 속도가 느림.
@@ -38,5 +36,4 @@ list1 = [i+1 for i in range(10)]
 print(list1)
 
 arr = [[0] * 3 for _ in range(3)]
->>>>>>> 58c38c2 (삭제)
 print(arr)

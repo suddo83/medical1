@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 파일 읽어오기
 
 # 1. 파일 열기
@@ -37,7 +36,6 @@ if not os.path.exists('str.txt'):
 #     if txt == '': break
     
 #     print(txt,end='')
-=======
 # 파일 읽어오기
 
 # 1. 파일 열기
@@ -76,4 +74,3 @@ if not os.path.exists('str.txt'):
 #     if txt == '': break
     
 #     print(txt,end='')
->>>>>>> 992ee3a (파이썬 수업내용)

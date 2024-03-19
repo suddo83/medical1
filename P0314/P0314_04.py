@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 파일1개 저장
 
 # file open
@@ -16,7 +15,6 @@ except Exception as e: # exception : 예외에 대한 설명을 출력
 finally:
     file.close() # 예외발생시, 예외발생하지 않아도 무조건 실행
     
-=======
 # 파일1개 저장
 
 # file open
@@ -34,5 +32,4 @@ except Exception as e: # exception : 예외에 대한 설명을 출력
 finally:
     file.close() # 예외발생시, 예외발생하지 않아도 무조건 실행
     
->>>>>>> 992ee3a (파이썬 수업내용)
 # 파일닫기

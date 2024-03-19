@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # 함수선언 def 이름() 정의
 # 함수값은 return
 # 함수호출 이름()
@@ -28,9 +26,6 @@ num2 = int(input("2번째 숫자를 입력하세요.>> "))
 result1,result2,result3,result4 = cal(num1,num2) 
 
 print("{},{} 결과값 : {},{},{},{}".format(num1,num2,result1,result2,result3,result4))
-=======
-=======
->>>>>>> 27a98de (파이썬 수업내용)
 # 함수선언 def 이름() 정의
 # 함수값은 return
 # 함수호출 이름()
@@ -54,7 +49,6 @@ num2 = int(input("2번째 숫자를 입력하세요.>> "))
 # print("1.+ 2.- 3.* 4./")
 # c = input("원하는 사칙연산을 입력하세요.")
 
-<<<<<<< HEAD
 # 두수입력을 받아 값을 리턴 받은 다음, 출력하시오.
 num1,num2 = 0,0
 num1 = int(input('1번째 숫자입력.>> '))
@@ -62,16 +56,10 @@ num2 = int(input('2번째 숫자입력.>> '))
 print('1.+2.-3.*4./')
 c = input('원하는 사칙연산을 입력하세요.(+,-,*,/)>> ')
 result = cal(num1,num2,c)
-<<<<<<< HEAD
 print(f"{num1}{c}{num2}={result}")
->>>>>>> 58c38c2 (삭제)
-=======
 print(f"{num1}{c}{num2}={result}")
->>>>>>> 27a98de (파이썬 수업내용)
-=======
 # 함수호출
 # result = cal(num1,num2,c) 
 result1,result2,result3,result4 = cal(num1,num2) 
 
 print("{},{} 결과값 : {},{},{},{}".format(num1,num2,result1,result2,result3,result4))
->>>>>>> 992ee3a (파이썬 수업내용)

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import operator
 
 # 딕셔너리 정렬
@@ -32,7 +31,6 @@ print(t_list)
 # print("-"*50)
 # b = [5,7,4,8,1,9,3,2]
 # b.sort(reverse=True) # 역순정렬
-=======
 import operator
 
 # 딕셔너리 정렬
@@ -66,5 +64,4 @@ print(t_list)
 # print("-"*50)
 # b = [5,7,4,8,1,9,3,2]
 # b.sort(reverse=True) # 역순정렬
->>>>>>> 58c38c2 (삭제)
 # print(b)

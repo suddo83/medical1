@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from datetime import datetime
 import datetime
 # from pytz import timezone
@@ -30,7 +29,6 @@ print(now.day,'일')
 print(now.hour,'시')
 print(now.minute,'분')
 print(now.second,'초')
-=======
 from datetime import datetime
 import datetime
 # from pytz import timezone
@@ -62,5 +60,4 @@ print(now.day,'일')
 print(now.hour,'시')
 print(now.minute,'분')
 print(now.second,'초')
->>>>>>> 992ee3a (파이썬 수업내용)
 print()

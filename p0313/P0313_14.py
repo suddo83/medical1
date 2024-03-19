@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import random
 
 c_number = [0]*13
@@ -23,7 +22,6 @@ l1 = min(s_number)
 print(f'큰수 :{h1}, 작은수 :{l1}')
 
 
-=======
 import random
 
 c_number = [0]*13
@@ -48,4 +46,3 @@ l1 = min(s_number)
 print(f'큰수 :{h1}, 작은수 :{l1}')
 
 
->>>>>>> 992ee3a (파이썬 수업내용)

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 파일열기
 file = open('memo.txt','r',encoding='utf8')
 
@@ -20,7 +19,6 @@ print(c_list)
 
 # 파일닫기
 file.close()
-=======
 # 파일열기
 file = open('memo.txt','r',encoding='utf8')
 
@@ -42,4 +40,3 @@ print(c_list)
 
 # 파일닫기
 file.close()
->>>>>>> 992ee3a (파이썬 수업내용)

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 파일열기
 with open('medical_1.csv', 'r', encoding='utf8') as f:
     # 파일읽기
@@ -12,7 +11,6 @@ with open('medical_1.csv', 'r', encoding='utf8') as f:
 # 결과 출력
 for row in list1:
     print(row)
-=======
 # 파일열기
 with open('medical_1.csv', 'r', encoding='utf8') as f:
     # 파일읽기
@@ -26,4 +24,3 @@ with open('medical_1.csv', 'r', encoding='utf8') as f:
 # 결과 출력
 for row in list1:
     print(row)
->>>>>>> 992ee3a (파이썬 수업내용)

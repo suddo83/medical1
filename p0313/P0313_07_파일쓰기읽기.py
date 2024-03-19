@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import os
 
 # 파일생성
@@ -37,7 +36,6 @@ out_f.close()
 # else:
 #     print('폴더가 존재합니다.')
 #     os.rmdir('hello')
-=======
 import os
 
 # 파일생성
@@ -76,4 +74,3 @@ out_f.close()
 # else:
 #     print('폴더가 존재합니다.')
 #     os.rmdir('hello')
->>>>>>> 992ee3a (파이썬 수업내용)

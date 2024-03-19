@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 리스트
 # 대괄호로 감싸서 나타내며 0개 이상의 원소가 저장될 수 있습니다
 num = 1
@@ -64,8 +63,6 @@ print(listC[4])
 print(1 in listC) # True
 print(4 in listC) # False
 print([4,5] in listC) # True
-
-=======
 # 리스트
 # 대괄호로 감싸서 나타내며 0개 이상의 원소가 저장될 수 있습니다
 num = 1
@@ -131,5 +128,3 @@ print(listC[4])
 print(1 in listC) # True
 print(4 in listC) # False
 print([4,5] in listC) # True
-
->>>>>>> 58c38c2 (삭제)

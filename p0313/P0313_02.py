@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 def cal(num1, num2):
     r_list = [0]*6
     r_list[0] = num1
@@ -25,7 +24,6 @@ while True:
 
 print('[ 현재까지 입력한 숫자,결과값 ]')
 for i in range(len(save_list)):
-=======
 def cal(num1, num2):
     r_list = [0]*6
     r_list[0] = num1
@@ -52,5 +50,4 @@ while True:
 
 print('[ 현재까지 입력한 숫자,결과값 ]')
 for i in range(len(save_list)):
->>>>>>> 992ee3a (파이썬 수업내용)
     print(f'{save_list[i][0]},{save_list[i][1]} 결과값 : {save_list[i][2]},{save_list[i][3]},{save_list[i][4]},{save_list[i][5]}')

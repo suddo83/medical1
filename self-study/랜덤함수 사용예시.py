@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import random
 
 w_list = ['토마토','바나나','사과','배','수박','메론','복숭아']
@@ -28,7 +27,6 @@ print(random.sample(list,4))
 
 w_list = ['토마토','바나나','사과','배','수박','메론','복숭아']
 
-=======
 import random
 
 w_list = ['토마토','바나나','사과','배','수박','메론','복숭아']
@@ -58,5 +56,4 @@ print(random.sample(list,4))
 
 w_list = ['토마토','바나나','사과','배','수박','메론','복숭아']
 
->>>>>>> 58c38c2 (삭제)
 print(random.sample(w_list,4))

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # # import math -> 사용방법 math.floor() 이름.함수명()
 from math import * # 이름 생략가능
 import lotto45
@@ -18,7 +17,6 @@ print(ceil(12.2)) # 13
 print(floor(12.9)) # 12
 # round - 반올림
 print(round(12.6)) # 13
-=======
 # # import math -> 사용방법 math.floor() 이름.함수명()
 from math import * # 이름 생략가능
 import lotto45
@@ -38,4 +36,3 @@ print(ceil(12.2)) # 13
 print(floor(12.9)) # 12
 # round - 반올림
 print(round(12.6)) # 13
->>>>>>> 992ee3a (파이썬 수업내용)

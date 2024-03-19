@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 students = {'stuNo':1,'stuName':'홍길동','kor':100}
 students['eng'] = 100   # 딕셔너리 추가
 students['kor'] = 50    # 딕셔너리 수정
@@ -21,7 +20,6 @@ print((students.items()))  # 딕셔너리 key,value값 토플 형태로 추출
 # print(list)
 # list[3] = 1000 # 에러
 # print(list)
-=======
 students = {'stuNo':1,'stuName':'홍길동','kor':100}
 students['eng'] = 100   # 딕셔너리 추가
 students['kor'] = 50    # 딕셔너리 수정
@@ -44,4 +42,3 @@ print((students.items()))  # 딕셔너리 key,value값 토플 형태로 추출
 # print(list)
 # list[3] = 1000 # 에러
 # print(list)
->>>>>>> 58c38c2 (삭제)

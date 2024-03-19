@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import random
 
 # 1차원 리스트 생성 및 초기화
@@ -31,7 +30,6 @@ for i in range(5):
     for j in range(5):
         print(list2[i][j],end='\t')
     print()
-=======
 import random
 
 # 1차원 리스트 생성 및 초기화
@@ -64,4 +62,3 @@ for i in range(5):
     for j in range(5):
         print(list2[i][j],end='\t')
     print()
->>>>>>> 58c38c2 (삭제)

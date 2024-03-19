@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 콜백함수
 
 # 함수선언 - 콜백함수
@@ -22,7 +21,6 @@ callback_func(h_print)
 
 # # 함수를 변수에 저장
 # func = h_print()
-=======
 # 콜백함수
 
 # 함수선언 - 콜백함수
@@ -46,4 +44,3 @@ callback_func(h_print)
 
 # # 함수를 변수에 저장
 # func = h_print()
->>>>>>> 992ee3a (파이썬 수업내용)

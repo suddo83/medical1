@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import os
 while True:
     print("[ 윈도우 탐색기 ]")
@@ -71,7 +70,6 @@ while True:
                 f.write(txt_input+"\n") # 줄바꿈
             # 파일 닫기
             print("파일에 글자를 저장했습니다.")
-=======
 import os
 while True:
     print("[ 윈도우 탐색기 ]")
@@ -144,5 +142,4 @@ while True:
                 f.write(txt_input+"\n") # 줄바꿈
             # 파일 닫기
             print("파일에 글자를 저장했습니다.")
->>>>>>> 992ee3a (파이썬 수업내용)
             f.close()

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 리스트 대괄호, 출력 idx번호를 사용해서 출력
 products = ['새우깡',90,1200]
 print(products[0])
@@ -9,7 +8,6 @@ print(students['stuNo'])
 
 
 students['총합'] = 399 # 딕셔너리에 키와값 추가 
-=======
 # 리스트 대괄호, 출력 idx번호를 사용해서 출력
 products = ['새우깡',90,1200]
 print(products[0])
@@ -20,5 +18,4 @@ print(students['stuNo'])
 
 
 students['총합'] = 399 # 딕셔너리에 키와값 추가 
->>>>>>> 58c38c2 (삭제)
 print(students)

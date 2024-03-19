@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import os
 
 print('현재 운영체제 : ',os.name)
@@ -18,7 +17,6 @@ str1 = f("1,'홍길동',100,99,87,286,95..3.2")
 s_list = str1.split(',')
 
 for i in s_list:
-=======
 import os
 
 print('현재 운영체제 : ',os.name)
@@ -38,5 +36,4 @@ str1 = f("1,'홍길동',100,99,87,286,95..3.2")
 s_list = str1.split(',')
 
 for i in s_list:
->>>>>>> 992ee3a (파이썬 수업내용)
     print(i)

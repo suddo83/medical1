@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 a_list = [1,2,3]
 try:
     raise '에러발생' # 강제 에러 발생구문
@@ -10,7 +9,6 @@ except IndexError:
 except Exception as e:
     print('-- 예외가 발생했습니다.')
     print('타입 :',type)
-=======
 a_list = [1,2,3]
 try:
     raise '에러발생' # 강제 에러 발생구문
@@ -22,5 +20,4 @@ except IndexError:
 except Exception as e:
     print('-- 예외가 발생했습니다.')
     print('타입 :',type)
->>>>>>> 992ee3a (파이썬 수업내용)
     print(e)

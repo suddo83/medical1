@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 프로그램 작성하시오.
 students = [
         {'stuNo': 'S001', 'name': '홍길동', 'kor': 100, 'eng': 99, 'math': 87, 'total': 286, 'avg': 95.33},
@@ -166,7 +165,6 @@ while True:
         print('선택된 항목이 없습니다')
 
 
-=======
 # 프로그램 작성하시오.
 students = [
         {'stuNo': 'S001', 'name': '홍길동', 'kor': 100, 'eng': 99, 'math': 87, 'total': 286, 'avg': 95.33},
@@ -334,4 +332,3 @@ while True:
         print('선택된 항목이 없습니다')
 
 
->>>>>>> 58c38c2 (삭제)

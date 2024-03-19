@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 f = open("str.txt","r",encoding="utf8")
 while True:
     content = f.readline()
@@ -21,7 +20,6 @@ while True:
     content = fff.readline()
     if content.strip() == "": break
     print(content,end="")
-=======
 f = open("str.txt","r",encoding="utf8")
 while True:
     content = f.readline()
@@ -44,5 +42,4 @@ while True:
     content = fff.readline()
     if content.strip() == "": break
     print(content,end="")
->>>>>>> 992ee3a (파이썬 수업내용)
 fff.close()

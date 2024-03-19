@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import random
 # 1. 0으로 25개 1차원 리스트 생성
 aList = [0]*25
@@ -77,7 +76,6 @@ while True:
 print("[ 내가 입력한 좌표 출력 ]") 
 print(my_xy)    
 # 현재까지 입력한 좌표를 모두 출력하시오.
-=======
 import random
 # 1. 0으로 25개 1차원 리스트 생성
 aList = [0]*25
@@ -156,4 +154,3 @@ while True:
 print("[ 내가 입력한 좌표 출력 ]") 
 print(my_xy)    
 # 현재까지 입력한 좌표를 모두 출력하시오.
->>>>>>> 58c38c2 (삭제)

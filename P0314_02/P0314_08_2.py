@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # medical_1.csv 파일을 읽어와서 출력하시오.
 # 파일열기
 f = open("medical_1.csv","r",encoding="utf8")
@@ -18,7 +17,6 @@ while True:
     # print(content,end="")
 print("기초생활수급대상자 전체 수 : ",sum)
 # 파일닫기
-=======
 # medical_1.csv 파일을 읽어와서 출력하시오.
 # 파일열기
 f = open("medical_1.csv","r",encoding="utf8")
@@ -38,5 +36,4 @@ while True:
     # print(content,end="")
 print("기초생활수급대상자 전체 수 : ",sum)
 # 파일닫기
->>>>>>> 992ee3a (파이썬 수업내용)
 f.close()

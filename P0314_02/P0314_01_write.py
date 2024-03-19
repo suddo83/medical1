@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 파일열기
 file = open('memo.txt','w',encoding='utf8')
 # # 파일쓰기
@@ -18,7 +17,6 @@ while True:
         print('학생성적을 저장합니다.')
         break
     print(txt)
-=======
 # 파일열기
 file = open('memo.txt','w',encoding='utf8')
 # # 파일쓰기
@@ -38,5 +36,4 @@ while True:
         print('학생성적을 저장합니다.')
         break
     print(txt)
->>>>>>> 992ee3a (파이썬 수업내용)
     file.write(txt+"\n")

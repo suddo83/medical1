@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import random
 # 화면출력함수
 def screen():
@@ -45,7 +44,6 @@ def num_check(lotto,lucky_lotto,my_lotto,win_num,win_amount):
     # print(f"당첨금액 : {win_amount[len(win_num)]} 원")
     print("* 당첨금액 : {:,d} 원".format(win_amount[len(win_num)]))
     print("-"*40)
-=======
 import random
 # 화면출력함수
 def screen():
@@ -92,5 +90,4 @@ def num_check(lotto,lucky_lotto,my_lotto,win_num,win_amount):
     # print(f"당첨금액 : {win_amount[len(win_num)]} 원")
     print("* 당첨금액 : {:,d} 원".format(win_amount[len(win_num)]))
     print("-"*40)
->>>>>>> 992ee3a (파이썬 수업내용)
     print()
