@@ -10,13 +10,15 @@ from random import *
 
 # 입력한 숫자가 랜덤숫자보다 작으면 작습니다 더 큰수를 입력해주세요
 # 1. 현재 입력한 숫자 모두를 inputList에 넣으세요
-inputList = []
 # 2. 10회 도전 후 프로그램이 종료가 되게 해주세요
 # 3. 10회 도전이 실패한 사람에게 랜덤숫자 알려주기
-i = 0
-while i < 10:
+
+# i = 0
+# while i < 10:
+inputList = []
+a1 = randint(1,100)
+for i in range(10):
     i += 1
-    a1 = randint(1,100)
     b1 = int(input('숫자입력 >> '))
     inputList.append(b1)
     if a1 == b1:
